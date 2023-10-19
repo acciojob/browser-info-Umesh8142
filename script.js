@@ -7,6 +7,7 @@ let browserName = navigator.appName;
 let browserVersion = navigator.appVersion;
 
 const d=document.createElement('div');
+d.id="browser-info";
 d.innerText=`You are using ${browserName} version ${browserVersion}`
 
 document.body.appendChild(d);
